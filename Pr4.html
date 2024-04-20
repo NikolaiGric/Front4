@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Pr4.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/Pr4.css" >
+    <title>Сайт для соседей с flexbox</title>
 </head>
 <body>
-    <header><p>BurgerNation</p></header>
     <main>
-        <nav>
-            <p>Home</p>
-            <p>Our Menu</p>
-            <p>Offers</p>
-            <p>About</p>
-            <p>Franchise</p>
-            <p>Contact</p>
-            <button>Downoload App</button>
-        </nav>
-        <section class="two"><p>Only $10.54</p></section>
-        <section class="three"><h1>The Smokin Burger</h1></section>
-        <section class="four"><p>15%</p><p class="test">DISCOUNT</p></section>
-        <section class="five"><p>On your first order, if you order through our App!</p></section>
-        <section><button class="six">ORDER ONLINE</button></section>
-        <section class="seven"><img src="C:\Users\nikol\OneDrive\Рабочий стол\Front\Img\num.bmp" alt="Burger num num"></section>
+        <div class="flex-container1">
+            <div class="item1">
+                <strong>FLATMATE</strong>
+            </div>
+            <nav class="flex-container1">
+                <a class="item item2" href="">Home</a> 
+                <a class="item item3" href="">About us</a> 
+                <a class="item item4" href="">Location</a> 
+                <a class="item item5" href="">Reviews</a>
+                <button class="item item6">Find Room</button>
+                <button class="item item7">Sign in</button>
+                
+            </nav>
+        </div>
+        <div class="flex-container2"> 
+                <strong class="Text">Find your next perfect roommates from your community</strong>
+        </div>
+        <div class="flex-container2">
+        <div class="end">  
+            <input type="text" name="example" list="exampleList1">
+            <datalist id="exampleList1">
+                <option value="A">  
+                <option value="B">
+            </datalist>
+            <input type="text" name="example" list="exampleList2">
+            <datalist id="exampleList2">
+                <option value="A">  
+                <option value="B">
+            </datalist>
+            <input type="text" name="example" list="exampleList3">
+            <datalist id="exampleList3">
+                <option value="A">  
+                <option value="B">
+            </datalist>
+            <button>Search</button>
+            </div>
+        </div>
     </main>
 </body>
 </html>
